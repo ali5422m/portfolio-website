@@ -14,6 +14,7 @@ const Nav = () => {
                         activeClass="active"
                         smooth={true}
                         spy={true}
+                        offset={-200}
                         className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center">
                         <BiHomeAlt/>
                     </Link>
