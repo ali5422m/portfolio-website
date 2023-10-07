@@ -16,16 +16,16 @@ const Banner = () => {
                         initial="hidden"
                         whileInView={'show'}
                         viewport={{ once: false, amount: 0.7 }}
-                            className="text-[55px] font-bold leading-[0.8] lg:text-[110px]">
-                        Ben<span>Aiden</span>
+                            className="text-[40px] font-bold leading-[0.8] sm:text-[55px] md:text-[65px] lg:text-[55px] xl:text-[75px]">
+                        ALI<span>MOHAMMADINIA</span>
                     </motion.h1>
                     <motion.div
                         variants={fadeIn("up", 0.4)}
                         initial="hidden"
                         whileInView={'show'}
                         viewport={{ once: false, amount: 0.7 }}
-                        className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]">
-                        <span className="text-white mr-4">I am a </span>
+                        className="mb-6 text-[36px] lg:text-[55px] font-secondary font-semibold uppercase leading-[1] ">
+                        <span className="text-white mr-4 ">I am a </span>
                         <TypeAnimation sequence={[
                             "Developer",
                             2000,
@@ -35,7 +35,7 @@ const Banner = () => {
                             2000,
                         ]}
                                        speed={50}
-                                       className="text-accent"
+                                       className="text-accent no-wrap"
                                        wrapper="span"
                                        repeat={Infinity}
                         />
@@ -80,6 +80,7 @@ const Banner = () => {
                     variants={fadeIn("down", 0.5)}
                     initial="hidden"
                     whileInView={'show'}
+                    viewport={{ once: false, amount: 0.7 }}
                     className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]">
                     <img src={Image} alt="" />
                 </motion.div>
