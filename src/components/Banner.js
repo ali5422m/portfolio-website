@@ -66,7 +66,7 @@ const Banner = () => {
                                     Contact me
                                 </button>
                             </Link>
-                            <Link to={MyPDF} target="_blank" download="dadkhast.pdf" className="text-gradient btn-link">
+                            <Link to={MyPDF} target="_blank" download="" className="text-gradient btn-link">
                                 My Resume
                             </Link>
                         </motion.div>
