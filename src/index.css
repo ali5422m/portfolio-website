@@ -4,33 +4,116 @@
 
 .btn {
   background: linear-gradient(
-    92.23deg,
-    #ff56f6 21.43%,
-    #b936ee 50.63%,
-    #3bace2 100%,
-    #406aff 117.04%
+          92.23deg,
+          #ff56f6 21.43%,
+          #b936ee 50.63%,
+          #3bace2 100%,
+          #406aff 117.04%
   );
   box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
 }
 
 .btn:hover {
   background: linear-gradient(
-    92.23deg,
-    #406aff 21.43%,
-    #3bace2 50.63%,
-    #b936ee 100%,
-    #ff56f6 117.04%
+          92.23deg,
+          #406aff 21.43%,
+          #3bace2 50.63%,
+          #b936ee 100%,
+          #ff56f6 117.04%
   );
+}
+
+.btn-box div{
+  background: #b936ee;
+  border: 2px solid #b936ee;
+  border-radius: 8px;
+  font-size: 19px;
+  padding: 0.5rem 1rem;
+  color: #082b29;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.btn-box .btn-resume {
+  background: transparent;
+  color: #B809C3;
+}
+
+.btn-box .btn-resume:hover{
+  color: #081b29;
+}
+
+.btn-box .btn-resume::before{
+  background: #B809C3;
+}
+
+.btn-box div:hover{
+  color: #B809C3;
+}
+
+.btn-box div::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #081b29;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.btn-box div:hover::before {
+  width: 100%;
+}
+
+.home-sci div {
+  position: relative;
+  background: transparent;
+  border: 2px solid #3bace2;
+  border-radius: 50%;
+  font-size: 30px;
+  color: #3bace2;
+  text-decoration: none;
+  padding: 0.5rem;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.home-sci div:hover{
+  color: #081b29;
+}
+
+.home-sci div::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #3bace2;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.home-sci div:hover::before{
+  width: 100%;
 }
 
 .gradient,
 .active {
   background: linear-gradient(
-    92.23deg,
-    #406aff 21.43%,
-    #3bace2 50.63%,
-    #b936ee 100%,
-    #ff56f6 117.04%
+          92.23deg,
+          #406aff 21.43%,
+          #3bace2 50.63%,
+          #b936ee 100%,
+          #ff56f6 117.04%
   );
 }
 
