@@ -96,7 +96,7 @@ const Banner = () => {
                             {/*</Link>*/}
                             <Link to="">
                                 <div>
-                                    <FaLinkedin/>
+                                    <FaLinkedin />
                                 </div>
                             </Link>
                         </motion.div>
