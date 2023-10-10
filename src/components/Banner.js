@@ -61,12 +61,15 @@ const Banner = () => {
                             whileInView={'show'}
                             viewport={{once: true, amount: 0.7}}
                             className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
-                            <Link to="tel:+09140035422">
+                            <Link to="tel:+989393714073">
                                 <button className="btn btn-lg">
                                     Contact me
                                 </button>
                             </Link>
-                            <Link to={MyPDF} target="_blank" download="" className="text-gradient btn-link">
+                            {/*<Link to={MyPDF} target="_blank" download="" className="text-gradient btn-link">*/}
+                            {/*    My Resume*/}
+                            {/*</Link>*/}
+                            <Link to="" className="text-gradient btn-link">
                                 My Resume
                             </Link>
                         </motion.div>
@@ -86,7 +89,12 @@ const Banner = () => {
                                     <FaGithub/>
                                 </div>
                             </Link>
-                            <Link to="https://linkedin.com/in/ali-mohammadinia-836b3b237/" target="_blank">
+                            {/*<Link to="https://linkedin.com/in/ali-mohammadinia-836b3b237/" target="_blank">*/}
+                            {/*    <div>*/}
+                            {/*        <FaLinkedin/>*/}
+                            {/*    </div>*/}
+                            {/*</Link>*/}
+                            <Link to="">
                                 <div>
                                     <FaLinkedin/>
                                 </div>

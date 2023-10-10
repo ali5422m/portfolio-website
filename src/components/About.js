@@ -93,15 +93,22 @@ const About = () => {
                                     <button>Contact Me</button>
                                 </div>
                             </Link>
-                                <Link
-                                    to={MyPDF}
-                                    download="Alireza_Hajizaki_Resume.pdf"
-                                    target="_blank"
-                                >
-                            <div className="btn-resume">
+                            {/*    <Link*/}
+                            {/*        to={MyPDF}*/}
+                            {/*        download="Alireza_Hajizaki_Resume.pdf"*/}
+                            {/*        target="_blank"*/}
+                            {/*    >*/}
+                            {/*<div className="btn-resume">*/}
+                            {/*        My Resume*/}
+                            {/*</div>*/}
+                            {/*    </Link>*/}
+                            <Link
+                                to=""
+                            >
+                                <div className="btn-resume">
                                     My Resume
-                            </div>
-                                </Link>
+                                </div>
+                            </Link>
                             {/*<Link to="tel:+09140035422">*/}
                             {/*    <button className="btn btn-lg">*/}
                             {/*        Contact me*/}
